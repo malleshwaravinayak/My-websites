@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Station</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>🎵 Music Station</h1>
+        <p>Your favorite music, all in one place</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Songs</a>
+        <a href="#">Artists</a>
+        <a href="#">Playlists</a>
+    </nav>
+
+    <section class="welcome">
+        <h2>Welcome to Music Station</h2>
+        <p>Listen to your favorite songs and enjoy the music!</p>
+    </section>
+
+    <section class="songs">
+
+        <div class="song-card">
+            <div class="music-icon">🎧</div>
+            <h3>Dreams</h3>
+            <p>Music Artist</p>
+            <button>▶ Play</button>
+        </div>
+
+        <div class="song-card">
+            <div class="music-icon">🎵</div>
+            <h3>Summer Vibes</h3>
+            <p>Music Artist</p>
+            <button>▶ Play</button>
+        </div>
+
+        <div class="song-card">
+            <div class="music-icon">🎶</div>
+            <h3>Night Sky</h3>
+            <p>Music Artist</p>
+            <button>▶ Play</button>
+        </div>
+
+        <div class="song-card">
+            <div class="music-icon">🎤</div>
+            <h3>My Favorite Song</h3>
+            <p>Music Artist</p>
+            <button>▶ Play</button>
+        </div>
+
+    </section>
+
+    <section class="player">
+        <h2>🎵 Now Playing</h2>
+        <h3>Dreams</h3>
+        <p>Music Artist</p>
+
+        <input type="range" value="40">
+
+        <div class="controls">
+            <button>⏮</button>
+            <button>▶</button>
+            <button>⏭</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Music Station | Enjoy Your Music 🎵</p>
+    </footer>
+
+</body>
+</html>
